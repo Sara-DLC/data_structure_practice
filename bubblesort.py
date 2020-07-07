@@ -2,7 +2,7 @@ def bubble_sort(arr):
     swap_happened = True
     while swap_happened:  # to trigger swap_happened for the first time
         print('bubble sort status:' + str(arr))
-        swap_happened = False  # set swap_happened to false and start loop
+        swap_happened = False
         for num in range(len(arr)-1):
             if arr[num] > arr[num+1]:
                 swap_happened = True
