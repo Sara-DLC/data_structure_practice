@@ -1,9 +1,9 @@
 def bubble_sort(arr):
     swap_happened = True
-    while swap_happened:  # to trigger swap_happened for the first time
-        print('bubble sort status:' + str(arr))
+    while swap_happened:
+        print(str(arr))
         swap_happened = False
-        for num in range(len(arr)-1):
+        for num in range(len(arr) - 1):
             if arr[num] > arr[num+1]:
                 swap_happened = True
                 arr[num], arr[num+1] = arr[num+1], arr[num]
